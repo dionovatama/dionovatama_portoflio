@@ -31,11 +31,34 @@ export function Hero() {
 
           {/* Main Content */}
           <div className="space-y-6">
-            <div>
-              <p className="text-[#00ff88] text-xs sm:text-sm mb-2 tracking-wider">{'>'} INITIALIZING...</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-4 tracking-tight">
-                NAMA ANDA
-              </h1>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+              {/* Profile Photo */}
+              <div className="relative flex-shrink-0">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-36 lg:h-36 rounded-sm border border-[#00f0ff]/40 overflow-hidden relative
+                  shadow-[0_0_16px_rgba(0,240,255,0.25)] hover:shadow-[0_0_28px_rgba(0,240,255,0.5)] transition-shadow duration-300">
+                  <img
+                    src="https://placehold.co/144x144/0a0e14/00f0ff?text=PHOTO&font=monospace"
+                    alt="Profile"
+                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  />
+                  <div className="absolute inset-0 pointer-events-none"
+                    style={{ background: "repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,240,255,0.03) 2px, rgba(0,240,255,0.03) 4px)" }} />
+                </div>
+                <span className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-[#00f0ff]" />
+                <span className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-[#00f0ff]" />
+                <span className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-[#00f0ff]" />
+                <span className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-[#00f0ff]" />
+                <p className="text-[10px] text-[#00f0ff]/40 text-center mt-1 tracking-widest">[ ID:0x01 ]</p>
+              </div>
+
+              {/* Name + Social Links */}
+              <div className="flex flex-col gap-3">
+                <p className="text-[#00ff88] text-xs sm:text-sm tracking-wider">{'>'} INITIALIZING...</p>
+                <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white tracking-tight">
+                  NAMA ANDA
+                </h1>
+
+              </div>
             </div>
 
             <div className="space-y-2">

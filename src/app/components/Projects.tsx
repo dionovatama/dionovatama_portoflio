@@ -1,6 +1,10 @@
-import { Github, ExternalLink, Folder } from 'lucide-react';
+import { Github, ExternalLink, Folder, ArrowRight } from 'lucide-react';
 
-export function Projects() {
+interface Props {
+  onNavigate: () => void;
+}
+
+export function Projects({ onNavigate }: Props) {
   const projects = [
     {
       title: 'Network Monitoring Dashboard',
@@ -100,6 +104,17 @@ export function Projects() {
                 </div>
               </div>
             ))}
+          </div>
+          {/* Lihat Semua */}
+          <div className="mt-8 pt-6 border-t border-[#00f0ff]/20 flex justify-end">
+            <button
+              onClick={onNavigate}
+              className="group flex items-center gap-2 text-xs sm:text-sm tracking-widest text-[#00f0ff]/60
+                hover:text-[#00f0ff] transition-colors duration-200"
+            >
+              ls -la ./all-projects
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+            </button>
           </div>
         </div>
       </div>
