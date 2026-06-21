@@ -47,7 +47,7 @@ export function Footer() {
             <h3 className="text-[#00f0ff] text-sm mb-4 tracking-wider">CONNECT</h3>
             <div className="flex gap-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/dionovatama"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-[#00f0ff]/30 flex items-center justify-center text-gray-400 hover:text-[#00f0ff] hover:border-[#00f0ff]/60 hover:shadow-[0_0_10px_rgba(0,240,255,0.3)] transition-all"
@@ -55,7 +55,7 @@ export function Footer() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://instagram.com/yourusername"
+                href="https://www.instagram.com/dionovatama_?igsh=ZjF4enRoM2xkNXVw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-[#00f0ff]/30 flex items-center justify-center text-gray-400 hover:text-[#00f0ff] hover:border-[#00f0ff]/60 hover:shadow-[0_0_10px_rgba(0,240,255,0.3)] transition-all"
@@ -63,7 +63,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:dionovatama11@gmail.com"
                 className="w-10 h-10 border border-[#00f0ff]/30 flex items-center justify-center text-gray-400 hover:text-[#00f0ff] hover:border-[#00f0ff]/60 hover:shadow-[0_0_10px_rgba(0,240,255,0.3)] transition-all"
               >
                 <Mail className="w-5 h-5" />
@@ -76,7 +76,7 @@ export function Footer() {
         <div className="pt-8 border-t border-[#00f0ff]/20">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-xs sm:text-sm">
-              <span className="text-[#00ff88]">©</span> {currentYear} <span className="text-[#00f0ff]">NAMA ANDA</span>. All rights reserved.
+              <span className="text-[#00ff88]">©</span> {currentYear} <span className="text-[#00f0ff]">DIO NOVATAMA</span>. All rights reserved.
             </p>
             <p className="text-gray-400 text-xs">
               <span className="text-[#00ff88]">{'>'}</span> Built with React & Tailwind CSS

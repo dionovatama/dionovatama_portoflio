@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Terminal } from 'lucide-react';
+import fotoProfil from '../../assets/foto-profil.jpg';
 
 export function Hero() {
   const [isOnline, setIsOnline] = useState(true);
@@ -37,9 +38,9 @@ export function Hero() {
                 <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-36 lg:h-36 rounded-sm border border-[#00f0ff]/40 overflow-hidden relative
                   shadow-[0_0_16px_rgba(0,240,255,0.25)] hover:shadow-[0_0_28px_rgba(0,240,255,0.5)] transition-shadow duration-300">
                   <img
-                    src="https://placehold.co/144x144/0a0e14/00f0ff?text=PHOTO&font=monospace"
+                    src={fotoProfil}
                     alt="Profile"
-                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                    className="w-full h-full object-cover hover:grayscale-0 transition-all duration-500"
                   />
                   <div className="absolute inset-0 pointer-events-none"
                     style={{ background: "repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,240,255,0.03) 2px, rgba(0,240,255,0.03) 4px)" }} />
@@ -51,13 +52,12 @@ export function Hero() {
                 <p className="text-[10px] text-[#00f0ff]/40 text-center mt-1 tracking-widest">[ ID:0x01 ]</p>
               </div>
 
-              {/* Name + Social Links */}
+              {/* Name */}
               <div className="flex flex-col gap-3">
                 <p className="text-[#00ff88] text-xs sm:text-sm tracking-wider">{'>'} INITIALIZING...</p>
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white tracking-tight">
-                  NAMA ANDA
+                  DIO NOVATAMA
                 </h1>
-
               </div>
             </div>
 

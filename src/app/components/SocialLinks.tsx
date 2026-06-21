@@ -1,32 +1,32 @@
-import { Github, Instagram, Mail, Linkedin, ExternalLink } from 'lucide-react';
+import { Github, Instagram, Mail, Youtube, ExternalLink } from 'lucide-react';
 
 export function SocialLinks() {
   const socials = [
     {
       name: 'GitHub',
-      username: '@yourusername',
-      url: 'https://github.com/yourusername',
+      username: '@dionovatama',
+      url: 'https://github.com/dionovatama',
       icon: Github,
       description: 'Check out my code repositories',
     },
     {
       name: 'Instagram',
-      username: '@yourusername',
-      url: 'https://instagram.com/yourusername',
+      username: '@dionovatama_',
+      url: 'https://www.instagram.com/dionovatama_?igsh=ZjF4enRoM2xkNXVw',
       icon: Instagram,
       description: 'Follow my tech journey',
     },
     {
-      name: 'LinkedIn',
-      username: 'Your Name',
-      url: 'https://linkedin.com/in/yourusername',
-      icon: Linkedin,
-      description: 'Connect professionally',
+      name: 'YouTube',
+      username: '@novatama-tech',
+      url: 'https://youtube.com/@novatama-tech?si=PGu9vL_Pbzhzp9Qi',
+      icon: Youtube,
+      description: 'Watch my project videos',
     },
     {
       name: 'Email',
-      username: 'your.email@example.com',
-      url: 'mailto:your.email@example.com',
+      username: 'dionovatama11@gmail.com',
+      url: 'mailto:dionovatama11@gmail.com',
       icon: Mail,
       description: 'Get in touch',
     },
@@ -77,8 +77,8 @@ export function SocialLinks() {
           <div className="mt-8 pt-6 border-t border-[#00f0ff]/20">
             <p className="text-gray-400 text-sm text-center">
               <span className="text-[#00ff88]">{'>'}</span> Prefer email? Drop me a message at{' '}
-              <a href="mailto:your.email@example.com" className="text-[#00f0ff] hover:underline">
-                your.email@example.com
+              <a href="mailto:dionovatama11@gmail.com" className="text-[#00f0ff] hover:underline">
+                dionovatama11@gmail.com
               </a>
             </p>
           </div>
